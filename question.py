@@ -1,0 +1,6 @@
+name,char=input("enter your name and any letter of your name   ").split(",")
+print(f"length of your name is = {len(name)}" )
+print(f"the character you enter is in your name for {name.count(char)} times")
+print(f"you name in uppercase is= {name.upper()}")
+print(f"you name in lower case is = {name.lower()}")
+print(f"you name as a title is = {name.title()}")
